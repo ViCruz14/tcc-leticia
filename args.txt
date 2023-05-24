@@ -1,0 +1,9 @@
+--no-metadata-json
+--filename-pattern={date_utc:%d-%m-%Y %H-%M}
+--post-filter=datetime(2022,8,17) <= date_utc <= datetime(2022,11,16) or datetime(2022,12,17) <= date_utc <= datetime(2023,3,18)
+--post-metadata-txt={date_utc:%d-%m-%Y %H-%M};{caption};{likes};{comments};{tagged_users};{caption_hashtags}
+nikolasferreiradm
+andreferreira.pe
+clarissatercio
+dep.eliborges
+bolsonarosp

@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "instaloader"
+version = "0.1.0"
+description = ""
+authors = ["Vitória"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tqdm = "^4.65.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
